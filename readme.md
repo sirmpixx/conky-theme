@@ -32,19 +32,21 @@ To use this theme, you will need:
    ```bash
    cp -r /path/to/theme /home/$USER/.conky/
    ```
+
 3. Open Conky Manager 2:
    ```bash
    conky-manager
    ```
 4. Select and enable the theme from the available options.
-   
+5. Edit the File and change the path to your disks
+
 ## Authors
 
 Maximilian Lanski [@sirmpixx](https://www.instagram.com/sirmpixx/?hl=de)
 
 ## Version History
 
-* Version 1.0: First Creation
+- Version 1.0: First Creation
 
 ## License
 
@@ -53,4 +55,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [README-Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+
+- [README-Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
