@@ -38,6 +38,7 @@ color white
 minimum_size 60 50
 TEXT
 ${font Roboto:size=30}Uhrzeit ${time %H:%M}${font Monospace:size=15}
+${font Roboto:size=20}Datum ${time %d.%m.%Y}${font Monospace:size=15}
 
 ${font Monospace:size=20}System:${font Monospace:size=15}
 ${color #ff009f}Hostname: $color${nodename}
@@ -53,15 +54,6 @@ ${color #ff009f}Upload:   $color${upspeed}
 
 ${font Monospace:size=20}Speicherplatz:${font Monospace:size=15}
 ${color #ff009f}/root:    $color${fs_used /}/${fs_size /}
-${color #ff009f}/data:    $color${fs_used  /mnt/Datengrab}/${fs_size  /mnt/Datengrab}
-${color #ff009f}/gaming:  $color${fs_used  /mnt/f4a22cbc-1a24-4997-863f-c91d02ec3506}/${fs_size  /mnt/f4a22cbc-1a24-4997-863f-c91d02ec3506}
+${color #ff009f}/data:    $color${fs_used  /mnt/datengrab}/${fs_size  /mnt/datengrab}
+${color #ff009f}/gaming:  $color${fs_used  /mnt/gaming}/${fs_size  /mnt/gaming}
 ${color #ff009f}/record:  $color${fs_used  /mnt/record}/${fs_size  /mnt/record}
-
-
-
-
-
-
-
-
-
